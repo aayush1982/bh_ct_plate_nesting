@@ -163,7 +163,7 @@ def get_allowed_plate_sizes_for_thickness(
 
     if t <= 45:
         widths  = [1500, 1600, 2000, 2500]
-        lengths = list(range(6000, 12000, 50))
+        lengths = list(range(10000, 13000, 100))
         return [(W,L) for W in widths for L in lengths]
     else:
         widths  = list(range(1200, 2500, 50))
